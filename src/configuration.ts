@@ -1,7 +1,7 @@
 // General Configuration
 const CONFIG = {
   formID: "1751CVRsRK2-aqzkxdukEub82FQTKKQUlQ5iB_Ivvhnc", // ID of the form
-  
+
   answerCol: 11, // Column that receives the answer about the scholar level of each requisition
   techCourseCol: 14, // Techinical Course Column
   supCourseCol: 12, // Superiror Course Column
@@ -10,6 +10,12 @@ const CONFIG = {
 
   startOptionDay: '2024-08-02',
   endOptionDay: '2024-09-10'
+  
+}
+
+const IMPORTANT_DATES = {
+
+    
 }
 
 // Mapping for the configuration sheet
@@ -35,7 +41,6 @@ const EMAILS = {
     "secretaria.superior@muz.ifsuldeminas.edu.br"
   ]
 }
-
 
 // Configuration for the email sender function
 const EMAIL_CONFIG = {

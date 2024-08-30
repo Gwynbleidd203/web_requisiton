@@ -3,6 +3,7 @@ import { levelAnswers } from "./configuration";
 
 
 function aoEnviarResposta(e) {
+
     // Acessa a planilha onde as respostas estão sendo gravadas
     var sheet = e.source.getActiveSheet();
     
